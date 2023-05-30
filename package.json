@@ -1,0 +1,70 @@
+{
+  "name": "golinks-intern-hackday",
+  "version": "1.0.0",
+  "description": "GoLinks Intern HackDay",
+  "author": {
+    "name": "Eric Hernandez",
+    "email": "eric.hdez2001@gmail.com",
+    "url": "https://eric-hdez.dev/"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eric-hdez/fictional-octo-computing-machine"
+  },
+  "dependencies": {
+    "axios": "*",
+    "@emotion/react": "*",
+    "@emotion/styled": "*",
+    "@mui/icons-material": "*",
+    "@mui/joy": "*",
+    "@mui/lab": "*",
+    "@mui/material": "*",
+    "prop-types": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-router-dom": "*"
+  },
+  "devDependencies": {
+    "@types/node": "*",
+    "@types/react": "*",
+    "@types/react-dom": "*",
+    "@typescript-eslint/eslint-plugin": "*",
+    "@typescript-eslint/parser": "*",
+    "@babel/eslint-parser": "*",
+    "eslint": "*",
+    "eslint-config-prettier": "*",
+    "eslint-config-typescript": "*",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-jsx-a11y": "*",
+    "eslint-plugin-prettier": "*",
+    "eslint-plugin-react": "*",
+    "prettier": "*",
+    "react-scripts": "*",
+    "typescript": "*"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "lint": "eslint . --fixAll",
+    "format": "prettier --write .",
+    "predeploy": "npm run build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "../.eslintrc"
+    ]
+  }
+}
