@@ -4,7 +4,7 @@ import { Stack, Typography } from '@mui/joy';
 
 import { RepositoryCard } from './RepositoryCard';
 
-const access_token = '';
+const access_token = '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';
 
 export const RepositoryList = () => {
   const [org, setOrg] = useState<string>('Netflix');

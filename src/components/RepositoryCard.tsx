@@ -4,7 +4,7 @@ import axios from 'axios';
 import { Card, Typography, Stack, Box, Divider } from '@mui/joy';
 import { Dialog } from './Dialog';
 
-const access_token = '';
+const access_token = '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';
 
 interface RepositoryProps {
   name: string;
@@ -103,7 +103,7 @@ export const CommitCard = ({
           <Box>
             <Typography>Commit Message: {commitMessage}</Typography>
             <Typography>Commit User: {commitUsername}</Typography>
-            <Typography>Fork Count: {commitHash}</Typography>
+            <Typography>Commit Hash: {commitHash}</Typography>
             <Typography>
               Created: {new Date(created).toLocaleDateString()}
             </Typography>

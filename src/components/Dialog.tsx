@@ -12,7 +12,7 @@ import {
 
 import { CommitCard } from './RepositoryCard';
 
-const access_token = '';
+const access_token = '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';
 
 export interface ModalProps {
   openModal: boolean;
@@ -36,6 +36,10 @@ export const Dialog = ({
       })
       .then(({ data }) => {
         console.log(data);
+        data.sort((a: any, b: any) => new Date(a.commit.author.date) < new Date(b.commit.author.date)
+          ? 1
+          : -1
+        );
         setCommits(data);
       });
   };
